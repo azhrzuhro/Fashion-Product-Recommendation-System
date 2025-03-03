@@ -43,7 +43,7 @@ Dashboard ini membantu pengguna menemukan produk fashion yang sesuai dengan pref
 ### Persiapan
 1. Clone repositori:
 ```bash
-git clone <repo_url>
+git clone <https://github.com/azhrzuhro/fashion-product-recommendation>
 cd <repo_folder>
 ```
 
