@@ -6,7 +6,7 @@ import tensorflow as tf
 import matplotlib.pyplot as plt
 
 # Load model dan encoder
-model = tf.keras.models.load_model('save model/collaborative_filtering_model.keras')
+model = ('save model/collaborative_filtering_model.keras')
 user_encoder = joblib.load('user_encoder.joblib')
 product_encoder = joblib.load('product_encoder.joblib')
 product_data = pd.read_csv('data/fashion_products.csv')  # Pastikan dataset tersedia
